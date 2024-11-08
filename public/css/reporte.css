@@ -1,0 +1,9 @@
+   
+    #reporteTable {
+        font-size: 14px;
+        text-align: left;
+    }
+     th {
+        background-color: #4CAF50 !important;
+        color: white;
+    }

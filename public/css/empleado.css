@@ -1,0 +1,143 @@
+/* Container styling */
+.container-empleados {
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header styling */
+.encabezado-empleados {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Custom button styling */
+.boton {
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.boton-primario {
+    background-color: #007bff;
+}
+
+.boton-editar {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.boton-eliminar {
+    background-color: #dc3545;
+}
+
+/* Table styling */
+.tabla-empleados {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabla-empleados thead tr {
+    background-color: #007bff;
+    color: white;
+}
+
+.tabla-empleados th,
+.tabla-empleados td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabla-empleados tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.tabla-empleados tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+/*Formulario Empleado */
+/* General container styling */
+.formulario-empleado {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.titulo-formulario {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form field styling */
+.campo {
+    margin-bottom: 15px;
+}
+
+.etiqueta-campo {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.entrada-texto,
+.entrada-seleccion {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.entrada-texto:focus,
+.entrada-seleccion:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Button styling */
+.boton-formulario {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.boton-guardar {
+    background-color: #007bff;
+}
+
+.boton-volver {
+    background-color: #6c757d;
+}
+
+.boton-formulario:hover {
+    opacity: 0.9;
+}
+
+/* Alignment for buttons */
+.contenedor-botones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
